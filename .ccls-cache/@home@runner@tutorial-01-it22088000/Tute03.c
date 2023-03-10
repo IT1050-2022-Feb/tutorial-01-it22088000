@@ -12,8 +12,6 @@ n -> 1-
 sum = 1+2+3+...+10 = 55 */
 
 #include <stdio.h>
-
-//function main begins program execution
 int main() {
   
   return 0;

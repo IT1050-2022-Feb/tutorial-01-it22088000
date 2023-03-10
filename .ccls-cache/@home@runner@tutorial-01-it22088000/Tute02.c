@@ -23,17 +23,16 @@ int main() {
 
   float distance, amount; //variable declaration
 
-  printf("Input the distance the van has travelled : "); //prompt
-  scanf("%f", &distance); //read the distance
+  printf("Input the distance the van has travelled : ");
+  scanf("%f", &distance);
 
-  if(distance <= 30) //checking conditions
-    amount = distance * 50.0; //calculate the amount
+  if(distance <= 30)
+    amount = distance * 50.0;
 
-  else if(distance >= 30) //checking conditions
-    amount = 30.0 * 50.0 + (distance - 30) * 40.0; //calculate the amount
+  else if(distance >= 30)
+    amount = 30.0 * 50.0 + (distance - 30) * 40.0;
 
-  printf("Amount to be paid = Rs.%.2f", amount); //prompt
+  printf("Amount to be paid = Rs.%.2f", amount);
   
   return 0;
-  
-} //end of main function
+}
