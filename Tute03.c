@@ -15,7 +15,20 @@ sum = 1+2+3+...+10 = 55 */
 
 //function main begins program execution
 int main() {
+
+  int n, i, sum = 0; //variable declaration
+
+  printf("Input a value for n : "); //prompt
+  scanf("%d", &n); //read the value of n
+
+  for(i = 1; i <= n; i++) //checking conditions
+    {
+      sum = sum + i; //calculate the sum
+    }
+
+  printf("Sum = %d", sum); //prompt
   
   return 0;
-}
+  
+} //enf of main function
 
